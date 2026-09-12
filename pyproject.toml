@@ -1,0 +1,17 @@
+[project]
+name = "agent-foundry"
+version = "0.1.0"
+description = "A local toolkit for empowering coding agents with reusable skills and MCP servers"
+readme = "README.md"
+authors = [
+    { name = "Eric Yu", email = "ericjiangshanyu@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+agent-foundry = "agent_foundry:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
