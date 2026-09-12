@@ -7,9 +7,7 @@ authors = [
     { name = "Eric Yu", email = "ericjiangshanyu@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = [
-    "mcp>=1.28,<2",
-]
+dependencies = []
 
 [project.scripts]
 agent-foundry = "agent_foundry:main"
